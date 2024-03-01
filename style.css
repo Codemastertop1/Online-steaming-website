@@ -597,7 +597,6 @@ header section:hover .bi-chevron-right {
 header section:hover .bi-chevron-left {
     opacity: 1;
 }
-
 @media screen and (max-width: 1250px) {
     header video {
         position: absolute;
@@ -614,30 +613,41 @@ header section:hover .bi-chevron-left {
 
     header nav {
         padding: 0px 10px;
-        height: 15%;
+        height: 30%;
     }
 
     header nav .logo_ul ul {
         position: absolute;
-        top: 0px;
-        left: 10px;
+        top: 50px;
+        left: -45px;
     }
 
     header nav .logo_ul ul li {
-        padding: 3px 5px;
+        padding: 5px 10px 0 ;
     }
 
     header nav .logo_ul ul li a {
-        font-size: 10px;
+        font-size: 25px;
+        /* padding: 5px; */
+        /* padding-left: 5px; */
     }
 
     header .content {
         padding-left: 10px;
+        margin-top: -50px;
+        /* margin-top: 200px; */
+        /* padding-top: 200px; */
     }
 
     header section {
         padding: 0px 10px;
+        /* margin-top: 200px; */
+        /* padding-top: 200px; */
     }
+    /* header section .card{ */
+        /* margin-top: ; */
+        /* padding-top: 100px; */
+    /* } */
 }
 
 @media screen and (max-width: 788px) {
