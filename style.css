@@ -114,7 +114,7 @@ header nav .logo_ul span {
     font-size: x-large;
     /* font-weight: 500; */
     font-weight: bold;
-    color: white;
+    color: yellow;
 }
 
 header nav .logo_ul ul {
@@ -620,6 +620,10 @@ header section:hover .bi-chevron-left {
         position: absolute;
         top: 50px;
         left: -45px;
+    }
+    .soo{
+        font-size:10px;
+        font-weight: bolder;
     }
 
     header nav .logo_ul ul li {
